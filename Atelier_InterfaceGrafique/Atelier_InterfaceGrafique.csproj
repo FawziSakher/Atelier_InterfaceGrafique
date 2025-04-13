@@ -82,6 +82,12 @@
     <Compile Include="Exercice4.Designer.cs">
       <DependentUpon>Exercice4.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormIMC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIMC.Designer.cs">
+      <DependentUpon>FormIMC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Authentification.resx">
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exercice4.resx">
       <DependentUpon>Exercice4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIMC.resx">
+      <DependentUpon>FormIMC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
