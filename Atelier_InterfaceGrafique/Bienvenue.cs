@@ -58,8 +58,11 @@ namespace Atelier_InterfaceGrafique
 
         }
 
-     
-
-       
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FormIMC formIMC = new FormIMC();
+            this.Hide();
+            formIMC.Show();
+        }
     }
 }
